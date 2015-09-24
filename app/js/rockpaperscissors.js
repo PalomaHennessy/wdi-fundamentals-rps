@@ -69,6 +69,7 @@ console.log (“Invalid input”)
 function playToFive() {
     console.log("Let's play Rock, Paper, Scissors");
     var playerWins = 0;
+    var computerWins = 0;
   for (var playerWins = 0; playerWins < 5; playerWins += 1){
 if (playerWins === 5) {
 break;
